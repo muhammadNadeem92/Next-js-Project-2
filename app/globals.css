@@ -15,9 +15,15 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+ background-image: url('/images/image.png');
+ background-position: center;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ opacity: inherit;
+ opacity: 0.5;
+ opacity: initial;
+ 
 }
 
 @layer utilities {
